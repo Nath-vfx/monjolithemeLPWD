@@ -1,4 +1,6 @@
-
-bonjour tout le monde 
-
-Il faudrait faire quelque chose
+<?php
+get_header();
+get_template_part('loop');
+get_sidebar();
+get_footer();
+?>
