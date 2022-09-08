@@ -10,6 +10,7 @@ Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_a
 <div class="post-content">
 <?php the_content(); ?>
 </div>
+<?php the_post_thumbnail( 'large' ); ?>
 <div class="post-comments">
 <?php comments_template(); ?>
 </div>

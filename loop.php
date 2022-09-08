@@ -8,6 +8,7 @@ Hey ! Il y a des Posts !
 <h3 class="post-title">
 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 </h3>
+<?php the_post_thumbnail( 'thumbnail' ); ?>
 <p class="post-info">
 Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> avec <?php the_tags(', '); ?> par <?php the_author(); ?>.
 </p>
